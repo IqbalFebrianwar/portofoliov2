@@ -40,8 +40,6 @@ const AboutpageComponent = () => {
            <p className="text-md mt-3 font-bold">SMK Tamansiswa 2 Jakarta</p>
            <p className="text-sm">Rekayasa Perangkat Lunak</p>
            <p className="text-sm">2019 - 2021</p>
-          </div>
-          <div data-aos-duration="2000" data-aos="fade-left">
            <h1 className="text-xl mt-10 font-bold">Pengalaman</h1>
            <p className="text-md mt-3 font-bold">Universitas Dian Nusantara</p>
            <p className="text-sm">Magang | Wordpress Design UI</p>
