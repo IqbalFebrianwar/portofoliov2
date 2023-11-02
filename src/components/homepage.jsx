@@ -32,12 +32,12 @@ const HomepageComponent = () => {
       <NavbarComponent />
       <div className="w-full mt-20 justify-center px-5">
         <div data-aos-duration="1000" data-aos="fade-right" className="">
-          <p className="text-sm text-blue-300">Hai,👋🏼 Nama saya</p>
+          <p className="text-sm ">Hai,👋🏼 Nama saya</p>
           <h2 className="text-5xl">Iqbal Febrianwar</h2>
           <div className="mt-3">
-            <span ref={el} className="text-lg font-semibold text-blue-300">
-              ""
-            </span>
+            <h1 ref={el} className="text-lg font-semibold bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 inline-block text-transparent bg-clip-text">
+              {""}
+            </h1>
           </div>
           <h4 className="text-sm mt-5">
             Saya seorang full stack web developer yang memiliki kemampuan desain
@@ -46,7 +46,7 @@ const HomepageComponent = () => {
             suatu tanggung jawab yang dilaksanakan secara hati-hati dan
             semaksimal mungkin, baik secara pribadi maupun kerja sama tim
           </h4>
-          <button className="btn mt-5 btn-outline rounded-xl hover:bg-blue-300 hover:text-black active:bg-blue-300 active:text-black">
+          <button className="btn mt-5 btn-outline rounded-xl hover:bg-white hover:text-black active:bg-white active:text-black">
             Download CV
           </button>
         </div>
