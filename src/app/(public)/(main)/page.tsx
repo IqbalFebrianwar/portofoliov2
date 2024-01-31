@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <div className="gap-y-4">
             <h1 className="text-gray-200 text-4xl font-bold font-body">
-              I'm <span className="text-blue-700">Iqbal</span> Febrianwar
+              I&apos;m <span className="text-blue-700">Iqbal</span> Febrianwar
             </h1>
             <h1 className="text-gray-500 text-md font-body mt-2">
               seorang{" "}
