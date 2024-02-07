@@ -6,6 +6,8 @@ const MainUI = dynamic(() => import("@/components/home/mainUI"));
 const ContentUI = dynamic(() => import("@/components/home/contentUI"));
 const BannerUI = dynamic(() => import("@/components/home/bannerUI"));
 const ServiceUI = dynamic(() => import("@/components/home/serviceUI"));
+const SkillsUI = dynamic(() => import("@/components/home/skillsUI"));
+const ProjectsUI = dynamic(() => import("@/components/home/projects"));
 
 export default function Home() {
   return (
@@ -35,6 +37,8 @@ export default function Home() {
       <ContentUI>
         <BannerUI />
         <ServiceUI />
+        <SkillsUI />
+        <ProjectsUI />
       </ContentUI>
     </MainUI>
   );

@@ -6,12 +6,15 @@ import Personal from "@/components/svg/personal.svg";
 
 const ServiceUI = () => {
   return (
-    <div className="w-full mt-14 grid justify-start">
+    <div className="w-full mt-16 grid justify-start">
       <div className="w-full grid">
         <h1 className="text-blue-700 font-body text-xl font-bold">Services</h1>
         <h1 className="text-gray-700 font-body font-bold text-2xl">
           Jasa Web Development
         </h1>
+        <p className="text-gray-500 font-body text-md mt-5">
+            Lihat semua Jasa Yang Sudah Saya Sediakan.
+          </p>
       </div>
       <div className="mt-10 w-full justify-center grid md:grid-cols-3 max-md:gap-y-5 md:gap-5">
         <CardService
