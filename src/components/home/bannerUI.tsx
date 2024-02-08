@@ -48,6 +48,7 @@ const BannerUI = () => {
           <div className="py-2 px-2 gap-x-2 flex">
             <button>
               <Image
+                loading="lazy"
                 alt="sosmed"
                 width={20}
                 height={20}
@@ -57,6 +58,7 @@ const BannerUI = () => {
             </button>
             <button>
               <Image
+                loading="lazy"
                 alt="sosmed"
                 width={20}
                 height={20}
@@ -71,12 +73,21 @@ const BannerUI = () => {
                 height={20}
                 src={InstagramIcon}
                 className="w-6"
+                loading="lazy"
               />
             </button>
           </div>
         </div>
       </div>
-      <Image className=" w-2/6 max-md:mt-10 max-md:w-9/12" src={Avatar} width={100} height={100} quality={100} alt="Avatar" />
+      <Image
+        loading="lazy"
+        className=" w-2/6 max-md:mt-10 max-md:w-9/12"
+        src={Avatar}
+        width={100}
+        height={100}
+        quality={100}
+        alt="Avatar"
+      />
     </div>
   );
 };

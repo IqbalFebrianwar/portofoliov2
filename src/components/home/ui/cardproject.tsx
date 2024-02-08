@@ -6,6 +6,7 @@ const CardProject = ({image, title, deskripsi, badge} : {image : string, title :
     <div className="card w-96 bg-transparent border-2 border-gray-500">
       <figure>
         <Image
+        loading="lazy"
         alt="Image"
         src={image}
         width={10}

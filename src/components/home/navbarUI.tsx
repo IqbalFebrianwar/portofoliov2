@@ -39,11 +39,13 @@ const NavbarUI = () => {
                   src={BurgerIcon}
                   width={40}
                   height={40}
+                  loading="lazy"
                 />
                 <Image
                 onClick={() => setOpen(!Open)}
                   className="max-lg:w-6 swap-on fill-current lg:hidden"
                   alt="close"
+                  loading="lazy"
                   src={CloseIcon}
                   width={20}
                   height={20}
