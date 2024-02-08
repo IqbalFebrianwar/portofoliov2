@@ -71,6 +71,17 @@ const SkillsUI = () => {
             Laravel
           </span>
         </div>
+        <div className="mt-2 flex flex-row flex-wrap gap-3">
+          <span className="text-gray-700 font-body font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            API
+          </span>
+          <span className="text-gray-700 font-body font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            NPM
+          </span>
+          <span className="text-gray-700 font-body font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Wordpress
+          </span>
+        </div>
         <h1 className="text-gray-700 mt-7 font-body font-bold text-2xl">
           Softwares dan Tools
         </h1>
