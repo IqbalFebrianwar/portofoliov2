@@ -5,6 +5,7 @@ import GithubIcon from "@/components/svg/github.svg";
 import LinkedinIcon from "@/components/svg/linkedin.svg";
 import InstagramIcon from "@/components/svg/instagram.svg";
 import Avatar from "@/components/svg/avatar.svg";
+import Link from "next/link";
 
 const BannerUI = () => {
   return (
@@ -34,10 +35,10 @@ const BannerUI = () => {
         </div>
 
         <div className="w-full mt-5 flex">
-          <button className="btn font-bold font-body text-md bg-blue-700 text-gray-200 px-10 normal-case border-0">
+          <button className="btn font-bold font-body shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0">
             hire me
           </button>
-          <button className="btn bg-transparent font-body text-md text-gray-500 px-5 border-0 uppercase">
+          <button className="btn bg-transparent shadow-none font-body text-md text-gray-500 px-5 border-0 uppercase">
             Resume
           </button>
         </div>
@@ -46,7 +47,7 @@ const BannerUI = () => {
             sosial media:{" "}
           </h1>
           <div className="py-2 px-2 gap-x-2 flex">
-            <button>
+            <Link href="https://github.com/IqbalFebrianwar">
               <Image
                 loading="lazy"
                 alt="sosmed"
@@ -55,8 +56,8 @@ const BannerUI = () => {
                 src={GithubIcon}
                 className="w-6"
               />
-            </button>
-            <button>
+            </Link>
+            <Link href="https://www.linkedin.com/in/iqbal-febrianwar-366094224/">
               <Image
                 loading="lazy"
                 alt="sosmed"
@@ -65,8 +66,8 @@ const BannerUI = () => {
                 src={LinkedinIcon}
                 className="w-6"
               />
-            </button>
-            <button>
+            </Link>
+            <Link href="https://www.instagram.com/iqbale.fr/">
               <Image
                 alt="sosmed"
                 width={20}
@@ -75,7 +76,7 @@ const BannerUI = () => {
                 className="w-6"
                 loading="lazy"
               />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
