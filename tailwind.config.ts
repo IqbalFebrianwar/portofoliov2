@@ -18,9 +18,6 @@ const config = {
       },
     },
     extend: {
-      fontFamily: {
-        'body': ['"Montserrat"'],
-      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

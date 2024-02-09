@@ -5,11 +5,11 @@ const PriceUI = () => {
   return (
     <div className="w-full mt-16  grid justify-start">
       <div className="w-full justify-start">
-        <h1 className="text-blue-700 font-body text-xl font-bold">Price List</h1>
-        <h1 className="text-gray-700 font-body font-bold text-2xl">
+        <h1 className="text-blue-700  text-xl font-bold">Price List</h1>
+        <h1 className="text-gray-700  font-bold text-2xl">
           Biaya Harga Pembuatan Website
         </h1>
-        <p className="text-gray-500 font-body text-md mt-5">
+        <p className="text-gray-500  text-md mt-5">
           Lihat semua Harga Pembuatan Website yang Tersedia.
         </p>
         <ul className="max-w-3xl space-y-1 mt-2 text-gray-500 list-disc list-inside">
@@ -20,9 +20,9 @@ const PriceUI = () => {
       </div>
       <div className="w-full mt-10 justify-start gap-10 flex flex-row flex-wrap">
         <div className="bg-white border-2 rounded-2xl border-gray-200 w-80">
-            <h1 className="font-body font-bold text-center text-gray-700 text-2xl p-14">Paket Silver</h1>
+            <h1 className=" font-bold text-center text-gray-700 text-2xl p-14">Paket Silver</h1>
             <div className=" w-64 p-2 justify-center text-center rounded-r-full bg-gradient-to-r from-slate-300 to-slate-500">
-                <h1 className="text-white relative w-full ordinal p-2 text-center text-sm font-body font-normal">Rp.<span className="text-2xl font-bold">650</span>Ribu</h1>
+                <h1 className="text-white relative w-full ordinal p-2 text-center text-sm  font-normal">Rp.<span className="text-2xl font-bold">650</span>Ribu</h1>
             </div>
             <ul className="list-inside text-gray-600 text-sm p-5">
                 <li className="flex items-center gap-2">
@@ -96,12 +96,12 @@ const PriceUI = () => {
                     WhatsApp Chat
                 </li>
             </ul>
-            <button className="text-center m-5 mb-10 py-4 px-10 text-gray-500 font-body border-2 border-gray-300 text-xs font-semibold justify-center rounded-full">Pilih Paket</button>
+            <button className="text-center m-5 mb-10 py-4 px-10 text-gray-500  border-2 border-gray-300 text-xs font-semibold justify-center rounded-full">Pilih Paket</button>
         </div>
         <div className="bg-white border-2 rounded-2xl border-gray-200 w-80">
-            <h1 className="font-body font-bold text-center text-gray-700 text-2xl p-14">Paket Gold</h1>
+            <h1 className=" font-bold text-center text-gray-700 text-2xl p-14">Paket Gold</h1>
             <div className=" w-64 p-2 justify-center text-center rounded-r-full bg-gradient-to-r from-amber-200 to-yellow-500">
-                <h1 className="text-white relative w-full ordinal p-2 text-center text-sm font-body font-normal">Rp.<span className="text-2xl font-bold">1.5</span>Juta</h1>
+                <h1 className="text-white relative w-full ordinal p-2 text-center text-sm  font-normal">Rp.<span className="text-2xl font-bold">1.5</span>Juta</h1>
             </div>
             <ul className="list-inside text-gray-600 text-sm p-5">
                 <li className="flex items-center gap-2">
@@ -185,12 +185,12 @@ const PriceUI = () => {
                     Intregasi Sosmed
                 </li>
             </ul>
-            <button className="text-center m-5 mb-10 py-4 px-10 text-amber-500 font-body border-2 border-amber-300 text-xs font-semibold justify-center rounded-full">Pilih Paket</button>
+            <button className="text-center m-5 mb-10 py-4 px-10 text-amber-500  border-2 border-amber-300 text-xs font-semibold justify-center rounded-full">Pilih Paket</button>
         </div>
         <div className="bg-white border-2 rounded-2xl border-gray-200 w-80">
-            <h1 className="font-body font-bold text-center text-gray-700 text-2xl p-14">Paket Diamond</h1>
+            <h1 className=" font-bold text-center text-gray-700 text-2xl p-14">Paket Diamond</h1>
             <div className=" w-64 p-2 justify-center text-center rounded-r-full bg-gradient-to-r from-indigo-400 to-cyan-400">
-                <h1 className="text-white relative w-full ordinal p-2 text-center text-sm font-body font-normal">Rp.<span className="text-2xl font-bold">3</span>Juta</h1>
+                <h1 className="text-white relative w-full ordinal p-2 text-center text-sm  font-normal">Rp.<span className="text-2xl font-bold">3</span>Juta</h1>
             </div>
             <ul className="list-inside text-gray-600 text-sm p-5">
                 <li className="flex items-center gap-2">
@@ -284,7 +284,7 @@ const PriceUI = () => {
                     Request Fitur Tertentu
                 </li>
             </ul>
-            <button className="text-center m-5 mb-10 py-4 px-10 text-indigo-700 font-body border-2 border-indigo-400 text-xs font-semibold justify-center rounded-full">Pilih Paket</button>
+            <button className="text-center m-5 mb-10 py-4 px-10 text-indigo-700  border-2 border-indigo-400 text-xs font-semibold justify-center rounded-full">Pilih Paket</button>
         </div>
       </div>
     </div>

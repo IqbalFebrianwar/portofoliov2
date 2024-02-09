@@ -11,13 +11,14 @@ const CardProject = ({imageproject, title, deskripsi, badge} : {imageproject : s
         src={imageproject}
         width={1000}
         height={1000}
+        quality={80}
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title font-body text-gray-700">
+        <h2 className="card-title text-gray-700">
           {title}
         </h2>
-        <p className="font-body text-gray-500">{deskripsi}</p>
+        <p className="text-gray-500">{deskripsi}</p>
         <div className="card-actions justify-end">
           <div className="badge badge-outline text-gray-500">{badge}</div>
         </div>

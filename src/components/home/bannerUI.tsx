@@ -22,12 +22,12 @@ const BannerUI = () => {
           />
         </div>
         <div className="gap-y-4">
-          <h1 className="text-gray-700 text-4xl font-bold font-body">
+          <h1 className="text-gray-700 text-4xl font-bold ">
             I&apos;m <span className="text-blue-700">Iqbal</span> Febrianwar
           </h1>
-          <h1 className="text-gray-500 text-md font-body mt-2">
+          <h1 className="text-gray-500 text-md  mt-2">
             seorang{" "}
-            <span className="text-gray-700 font-semibold font-body">
+            <span className="text-gray-700 font-semibold ">
               Front-end Developer
             </span>{" "}
             yang menyukai design modern dan clean design.
@@ -35,15 +35,15 @@ const BannerUI = () => {
         </div>
 
         <div className="w-full mt-5 flex">
-          <button className="btn font-bold font-body shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0">
+          <button className="btn font-bold  shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0">
             hire me
           </button>
-          <button className="btn bg-transparent shadow-none font-body text-md text-gray-500 px-5 border-0 uppercase">
+          <button className="btn bg-transparent shadow-none  text-md text-gray-500 px-5 border-0 uppercase">
             Resume
           </button>
         </div>
         <div className="w-full">
-          <h1 className="font-body mt-5 text-gray-500 text-md">
+          <h1 className=" mt-5 text-gray-500 text-md">
             sosial media:{" "}
           </h1>
           <div className="py-2 px-2 gap-x-2 flex">
@@ -81,13 +81,13 @@ const BannerUI = () => {
         </div>
       </div>
       <Image
-        loading="lazy"
         className=" w-2/6 max-md:mt-10 max-md:w-9/12"
         src={Avatar}
         width={100}
         height={100}
-        quality={100}
+        quality={20}
         alt="Avatar"
+        priority
       />
     </div>
   );

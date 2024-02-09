@@ -21,12 +21,13 @@ const CardService = ({
             src={icon}
             alt="icon layanan"
             className="w-10"
+            quality={50}
           />
         </div>
-        <h2 className="card-title font-body text-gray-700 max-md:text-lg">
+        <h2 className="card-title text-gray-700 max-md:text-lg">
           {title}
         </h2>
-        <p className=" text-gray-500 font-body max-md:text-sm">{deks}</p>
+        <p className=" text-gray-500 max-md:text-sm">{deks}</p>
       </div>
     </div>
   );

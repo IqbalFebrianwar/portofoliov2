@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const FooterUI = () => {
   return (
-    <footer className="footer footer-start font-body p-10 mt-20 bg-white text-gray-700">
+    <footer className="footer footer-start p-10 mt-20 bg-white text-gray-700">
       <nav>
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">Website Perusahaan</a>

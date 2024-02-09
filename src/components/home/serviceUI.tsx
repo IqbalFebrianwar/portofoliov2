@@ -8,11 +8,11 @@ const ServiceUI = () => {
   return (
     <div className="w-full mt-16 grid justify-start">
       <div className="w-full grid">
-        <h1 className="text-blue-700 font-body text-xl font-bold">Services</h1>
-        <h1 className="text-gray-700 font-body font-bold text-2xl">
+        <h1 className="text-blue-700 text-xl font-bold">Services</h1>
+        <h1 className="text-gray-700 font-bold text-2xl">
           Jasa Web Development
         </h1>
-        <p className="text-gray-500 font-body text-md mt-5">
+        <p className="text-gray-500 text-md mt-5">
             Lihat semua Jasa Yang Sudah Saya Sediakan.
           </p>
       </div>
@@ -43,10 +43,10 @@ const ServiceUI = () => {
         />
         <div className="card md:max-w-md max-md:w-72 border bg-blue-700">
           <div className="card-body">
-            <h2 className="card-title font-body text-white max-md:text-lg">
+            <h2 className="card-title text-white max-md:text-lg">
               Dan Lain-Lainnya.
             </h2>
-            <p className=" text-white font-body max-md:text-sm">
+            <p className=" text-white max-md:text-sm">
               Klik Untuk Pesan Sekarang
             </p>
             <button className="btn bg-white text-gray-700 border-0 shadow-none w-48">Pesan Sekarang</button>

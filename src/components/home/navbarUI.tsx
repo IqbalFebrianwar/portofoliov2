@@ -10,10 +10,10 @@ const NavbarUI = () => {
     <>
       <div className="navbar justify-between top-0 z-20 lg:px-40 max-md:px-10 py-5 backdrop-filter fixed backdrop-blur-3xl">
         <div className="flex-1">
-          <span className="font-body bg-transparent border-0 font-bold text-gray-900 max-md:text-2xl lg:text-3xl">
+          <span className="bg-transparent border-0 font-bold text-gray-900 max-md:text-2xl lg:text-3xl">
             iqbal
           </span>
-          <span className="font-body bg-transparent border-0 text-blue-700 max-md:text-2xl lg:text-3xl">
+          <span className="bg-transparent border-0 text-blue-700 max-md:text-2xl lg:text-3xl">
             dev
           </span>
         </div>
@@ -40,6 +40,7 @@ const NavbarUI = () => {
                   width={40}
                   height={40}
                   loading="lazy"
+                  quality={40}
                 />
                 <Image
                 onClick={() => setOpen(!Open)}
@@ -49,6 +50,7 @@ const NavbarUI = () => {
                   src={CloseIcon}
                   width={20}
                   height={20}
+                  quality={40}
                 />
           </label>
         </div>
