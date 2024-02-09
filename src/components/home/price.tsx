@@ -1,6 +1,7 @@
 import CheckList from "@/components/svg/checklist.svg";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const PriceUI = () => {
   return (
@@ -31,7 +32,13 @@ const PriceUI = () => {
         </ul>
       </div>
       <div className="w-full mt-10 justify-start gap-10 flex flex-row flex-wrap">
-        <div className="bg-white border-2 rounded-2xl border-gray-200 w-80">
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="bg-white border-2 rounded-2xl border-gray-200 w-80"
+        >
           <h1 className=" font-bold text-center text-gray-700 text-2xl p-14">
             Paket Silver
           </h1>
@@ -117,8 +124,14 @@ const PriceUI = () => {
               Pilih Paket
             </button>
           </Link>
-        </div>
-        <div className="bg-white border-2 rounded-2xl border-gray-200 w-80">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="bg-white border-2 rounded-2xl border-gray-200 w-80"
+        >
           <h1 className=" font-bold text-center text-gray-700 text-2xl p-14">
             Paket Gold
           </h1>
@@ -214,8 +227,14 @@ const PriceUI = () => {
               Pilih Paket
             </button>
           </Link>
-        </div>
-        <div className="bg-white border-2 rounded-2xl mb-5 border-gray-200 w-80">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="bg-white border-2 rounded-2xl mb-5 border-gray-200 w-80"
+        >
           <h1 className=" font-bold text-center text-gray-700 text-2xl p-14">
             Paket Diamond
           </h1>
@@ -321,7 +340,7 @@ const PriceUI = () => {
               Pilih Paket
             </button>
           </Link>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

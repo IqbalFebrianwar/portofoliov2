@@ -4,6 +4,7 @@ import Bisnis from "@/components/svg/bisnis.svg";
 import Marketing from "@/components/svg/marketing.svg";
 import Personal from "@/components/svg/personal.svg";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const ServiceUI = () => {
   return (
@@ -14,8 +15,8 @@ const ServiceUI = () => {
           Jasa Web Development
         </h1>
         <p className="text-gray-500 text-md mt-5">
-            Lihat semua Jasa Yang Sudah Saya Sediakan.
-          </p>
+          Lihat semua Jasa Yang Sudah Saya Sediakan.
+        </p>
       </div>
       <div className="mt-10 w-full justify-center grid md:grid-cols-3 max-md:gap-y-5 md:gap-5">
         <CardService
@@ -42,7 +43,13 @@ const ServiceUI = () => {
           title="Website Personal"
           deks="Membuat Website Untuk Website Personal Branding dan Portofolio Diri."
         />
-        <div className="card md:max-w-md max-md:w-72 border bg-blue-700">
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="card md:max-w-md max-md:w-72 border bg-blue-700"
+        >
           <div className="card-body">
             <h2 className="card-title text-white max-md:text-lg">
               Dan Lain-Lainnya.
@@ -50,9 +57,14 @@ const ServiceUI = () => {
             <p className=" text-white max-md:text-sm">
               Klik Untuk Pesan Sekarang
             </p>
-            <Link href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website" className="btn active:text-white hover:text-white active:bg-blue-500 hover:bg-blue-500 bg-white text-gray-700 border-0 shadow-none w-48">Pesan Sekarang</Link>
+            <Link
+              href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website"
+              className="btn active:text-white hover:text-white active:bg-blue-500 hover:bg-blue-500 bg-white text-gray-700 border-0 shadow-none w-48"
+            >
+              Pesan Sekarang
+            </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

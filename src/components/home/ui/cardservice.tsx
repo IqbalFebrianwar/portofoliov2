@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const CardService = ({
   bgcolor,
@@ -13,7 +14,12 @@ const CardService = ({
   deks: React.ReactNode;
 }) => {
   return (
-    <div className="card md:max-w-md max-md:w-72 border bg-white">
+    <motion.div 
+    initial={{opacity:0, scale:0}}
+    whileInView={{opacity:1, scale:1}}
+    transition={{duration:0.6}}
+    viewport={{once:true}}
+    className="card md:max-w-md max-md:w-72 border bg-white">
       <div className="card-body">
         <div className={`p-2 w-10 rounded-lg ${bgcolor}`}>
           <Image
@@ -29,7 +35,7 @@ const CardService = ({
         </h2>
         <p className=" text-gray-500 max-md:text-sm">{deks}</p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default CardService;
