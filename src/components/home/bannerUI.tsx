@@ -16,7 +16,7 @@ const BannerUI = () => {
           initial={{ x: -150 }}
           animate={{ x: 0 }}
           transition={{
-            duration: 1
+            duration: 0.5
           }}
           className="w-full flex"
         >
@@ -34,7 +34,7 @@ const BannerUI = () => {
           initial={{ x: -150 }}
           animate={{ x: 0 }}
           transition={{
-            duration: 1,
+            duration: 0.5
           }}
           className="gap-y-4"
         >
@@ -52,7 +52,7 @@ const BannerUI = () => {
 
         <div className="w-full mt-5 flex">
           <Link
-            href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website"
+            href="https://wa.me/6285780294072?text=Hai%20Iqbal,%20Saya%20Ingin%20Pesan%20Jasa%20Pembuatan%20Website"
             className="btn font-bold active:text-blue-700 hover:text-blue-700 active:bg-white hover:bg-white  shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0"
           >
             hire me

@@ -119,7 +119,7 @@ const PriceUI = () => {
               WhatsApp Chat
             </li>
           </ul>
-          <Link href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website%Dengan%Paket%Silver">
+          <Link href="https://wa.me/6285780294072?text=Hai%20Iqbal,%20Saya%20Ingin%20Pesan%20Jasa%20Pembuatan%20Website%20Dengan%20Paket%20Silver">
             <button className="text-center active:text-white hover:text-white active:bg-slate-400 hover:bg-slate-400 m-5 mb-10 py-4 px-10 text-gray-500  border-2 border-gray-300 text-xs font-semibold justify-center rounded-full">
               Pilih Paket
             </button>
@@ -222,7 +222,7 @@ const PriceUI = () => {
               Intregasi Sosmed
             </li>
           </ul>
-          <Link href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website%Dengan%Paket%Gold">
+          <Link href="https://wa.me/6285780294072?text=Hai%20Iqbal,%20Saya%20Ingin%20Pesan%20Jasa%20Pembuatan%20Website%20Dengan%20Paket%20Gold">
             <button className="text-center active:text-white hover:text-white active:bg-amber-300 hover:bg-amber-300 m-5 mb-10 py-4 px-10 text-amber-500  border-2 border-amber-300 text-xs font-semibold justify-center rounded-full">
               Pilih Paket
             </button>
@@ -335,7 +335,7 @@ const PriceUI = () => {
               Request Fitur Tertentu
             </li>
           </ul>
-          <Link href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website%Dengan%Paket%Diamond">
+          <Link href="https://wa.me/6285780294072?text=Hai%20Iqbal,%20Saya%20Ingin%20Pesan%20Jasa%20Pembuatan%20Website%20Dengan%20Paket%20Diamond">
             <button className="text-center active:text-white hover:text-white active:bg-indigo-400 hover:bg-indigo-400 m-5 mb-10 py-4 px-10 text-indigo-700  border-2 border-indigo-400 text-xs font-semibold justify-center rounded-full">
               Pilih Paket
             </button>
