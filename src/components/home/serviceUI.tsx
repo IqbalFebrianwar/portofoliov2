@@ -3,6 +3,7 @@ import Perusahaan from "@/components/svg/perusahaan.svg";
 import Bisnis from "@/components/svg/bisnis.svg";
 import Marketing from "@/components/svg/marketing.svg";
 import Personal from "@/components/svg/personal.svg";
+import Link from "next/link";
 
 const ServiceUI = () => {
   return (
@@ -49,7 +50,7 @@ const ServiceUI = () => {
             <p className=" text-white max-md:text-sm">
               Klik Untuk Pesan Sekarang
             </p>
-            <button className="btn bg-white text-gray-700 border-0 shadow-none w-48">Pesan Sekarang</button>
+            <Link href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website" className="btn active:text-white hover:text-white active:bg-blue-500 hover:bg-blue-500 bg-white text-gray-700 border-0 shadow-none w-48">Pesan Sekarang</Link>
           </div>
         </div>
       </div>

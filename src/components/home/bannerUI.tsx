@@ -19,6 +19,7 @@ const BannerUI = () => {
             height={20}
             src={HelloIcon}
             className=" w-8"
+            quality={10}
           />
         </div>
         <div className="gap-y-4">
@@ -35,10 +36,10 @@ const BannerUI = () => {
         </div>
 
         <div className="w-full mt-5 flex">
-          <button className="btn font-bold  shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0">
+          <Link href="https://wa.me/6285780294072?text=Hai%Iqbal,%Saya%Ingin%Membuat%Website" className="btn font-bold active:text-blue-700 hover:text-blue-700 active:bg-white hover:bg-white  shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0">
             hire me
-          </button>
-          <button className="btn bg-transparent shadow-none  text-md text-gray-500 px-5 border-0 uppercase">
+          </Link>
+          <button className="btn active:text-blue-700 hover:text-blue-700 active:bg-white hover:bg-white bg-transparent shadow-none  text-md text-gray-500 px-5 border-0 uppercase">
             Resume
           </button>
         </div>
@@ -53,6 +54,7 @@ const BannerUI = () => {
                 alt="sosmed"
                 width={20}
                 height={20}
+                quality={10}
                 src={GithubIcon}
                 className="w-6"
               />
@@ -63,6 +65,7 @@ const BannerUI = () => {
                 alt="sosmed"
                 width={20}
                 height={20}
+                quality={10}
                 src={LinkedinIcon}
                 className="w-6"
               />
@@ -73,6 +76,7 @@ const BannerUI = () => {
                 width={20}
                 height={20}
                 src={InstagramIcon}
+                quality={10}
                 className="w-6"
                 loading="lazy"
               />
