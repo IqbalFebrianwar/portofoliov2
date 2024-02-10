@@ -4,6 +4,8 @@ import Image from "next/image";
 import BurgerIcon from "@/components/svg/burger.svg";
 import CloseIcon from "@/components/svg/close.svg";
 import { useRef, useState } from "react";
+import { motion } from "framer-motion";
+
 const MainUI = dynamic(() => import("@/components/home/mainUI"));
 const ContentUI = dynamic(() => import("@/components/home/contentUI"));
 const BannerUI = dynamic(() => import("@/components/home/bannerUI"));
@@ -91,7 +93,13 @@ export default function HomeComponent() {
         </div>
       </div>
       {!Open && (
-        <div className="bg-transparent max-w-xl rounded-full right-6 end-0 flex p-3 z-40 top-0 mt-24 backdrop-filter fixed backdrop-blur-3xl">
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.2 }}
+          viewport={{ once: true }}
+          className="bg-transparent max-w-xl rounded-full right-6 end-0 flex p-3 z-40 top-0 mt-24 backdrop-filter fixed backdrop-blur-3xl"
+        >
           <button
             onClick={() => {
               homeRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -124,7 +132,7 @@ export default function HomeComponent() {
           >
             Projects
           </button>
-        </div>
+        </motion.div>
       )}
       <div ref={homeRef} className="mb-32"></div>
       <ContentUI>
