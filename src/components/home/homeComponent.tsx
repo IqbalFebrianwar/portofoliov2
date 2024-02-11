@@ -12,7 +12,6 @@ const BannerUI = dynamic(() => import("@/components/home/bannerUI"));
 const ServiceUI = dynamic(() => import("@/components/home/serviceUI"));
 const SkillsUI = dynamic(() => import("@/components/home/skillsUI"));
 const ProjectsUI = dynamic(() => import("@/components/home/projects"));
-const PriceUI = dynamic(() => import("@/components/home/price"));
 const FooterUI = dynamic(() => import("@/components/home/footerUI"));
 const KonsultasiUI = dynamic(() => import("@/components/home/konsultanUI"));
 
@@ -143,7 +142,6 @@ export default function HomeComponent() {
         <SkillsUI />
         <div ref={projectsRef} className="mb-32"></div>
         <ProjectsUI />
-        <PriceUI />
         <KonsultasiUI />
       </ContentUI>
       <FooterUI />

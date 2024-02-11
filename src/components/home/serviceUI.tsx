@@ -58,7 +58,7 @@ const ServiceUI = () => {
               Klik Untuk Pesan Sekarang
             </p>
             <Link
-              href="https://wa.me/6285780294072?text=Hai%20Iqbal,%20Saya%20Ingin%20Pesan%20Jasa%20Pembuatan%20Website"
+              href="https://wa.me/6285780294072?text=Hai%20Mas%20Iqbal,%20Saya%20Ingin%20Bertanya%20Seputar%20Website"
               className="btn active:text-white hover:text-white active:bg-blue-500 hover:bg-blue-500 bg-white text-gray-700 border-0 shadow-none w-48"
             >
               Pesan Sekarang
