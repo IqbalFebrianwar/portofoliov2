@@ -21,42 +21,56 @@ const ProjectsUI = () => {
         </div>
         <div className="mt-10 w-full gap-10 justify-start flex flex-row flex-wrap">
           <CardProject 
+            judullink="Apakah Kamu ingin Kunjungi Website ini ?"
+            link="https://westockid.vercel.app"
             imageproject={Westock}
             title="Westock"
             deskripsi="Website Image API Search Engine with Unsplash"
             badge="Next.js"
           />
           <CardProject 
+            judullink="Apakah Kamu ingin Kunjungi Website ini ?"
+            link="https://tehlink.vercel.app"
             imageproject={Tehlink}
             title="Tehlink"
             deskripsi="Website Landing Page Portofolio Tehlink"
             badge="Next.js"
           />
           <CardProject 
+            judullink="Apakah Kamu ingin Kunjungi Website ini ?"
+            link="https://demo-i6stuff.vercel.app"
             imageproject={I6stuff}
             title="i6Stuff"
             deskripsi="Website Landing Page E-Commerce"
             badge="Next.js"
           />
           <CardProject 
+            judullink="Apakah Kamu ingin Kunjungi Website ini ?"
+            link="https://fti.undira.ac.id"
             imageproject={FTI}
             title="Universitas Dian Nusantara"
             deskripsi="Website Landing Page Untuk Fakultas Teknik Informatika Undira"
             badge="Wordpress + Figma"
           />
           <CardProject 
+            judullink="Maaf Website Tidak tersedia :("
+            link="/"
             imageproject={Kiyomidev}
             title="KiyomiDev"
             deskripsi="Website Landing Page Portofolio Kiyomidev"
             badge="HTML + CSS"
           />
           <CardProject 
+            judullink="Apakah Kamu ingin Kunjungi Website ini ?"
+            link="https://tehlinkstore.vercel.app"
             imageproject={Fakestore}
             title="Fakestore API"
             deskripsi="Website Fakestore menggunakan API"
             badge="Next.js"
           />
           <CardProject 
+            judullink="Apakah Kamu ingin Kunjungi Website ini ?"
+            link="https://komiku-zen.vercel.app"
             imageproject={Komikuzen}
             title="Komikuzen"
             deskripsi="Website Untuk Membaca Komik"
