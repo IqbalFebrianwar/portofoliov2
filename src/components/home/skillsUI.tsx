@@ -34,9 +34,6 @@ const SkillsUI = () => {
             PHP
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
-            Node Js
-          </span>
-          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Postgresql
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
@@ -93,6 +90,9 @@ const SkillsUI = () => {
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Wordpress
           </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Node Js
+          </span>
         </div>
         <h1 className="text-gray-700 mt-7 font-bold text-2xl">
           Softwares dan Tools
@@ -112,9 +112,6 @@ const SkillsUI = () => {
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             NPM
-          </span>
-          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
-            Node.js
           </span>
         </div>
       </div>
