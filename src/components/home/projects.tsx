@@ -30,6 +30,14 @@ const ProjectsUI = () => {
           />
           <CardProject 
             judullink="Apakah Kamu ingin Kunjungi Website ini ?"
+            link="https://jspstock.my.id"
+            imageproject="https://res.cloudinary.com/df6nytit6/image/upload/v1717938376/jsp_vyf6zg.png"
+            title="JspStock"
+            deskripsi="Aplikasi Berbasis Website Admin untuk mengelola penjualan produk"
+            badge="Next.js"
+          />
+          <CardProject 
+            judullink="Apakah Kamu ingin Kunjungi Website ini ?"
             link="https://tehlink.vercel.app"
             imageproject={Tehlink}
             title="Tehlink"

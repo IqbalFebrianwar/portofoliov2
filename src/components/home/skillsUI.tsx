@@ -34,6 +34,12 @@ const SkillsUI = () => {
             PHP
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Node Js
+          </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Postgresql
+          </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             SQL
           </span>
         </div>
@@ -70,13 +76,19 @@ const SkillsUI = () => {
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Laravel
           </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Nest Js
+          </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Prisma ORM
+          </span>
         </div>
         <div className="mt-2 flex flex-row flex-wrap gap-3">
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             API
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
-            NPM
+            REST API
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Wordpress
@@ -97,6 +109,9 @@ const SkillsUI = () => {
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Git
+          </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            NPM
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Node.js
