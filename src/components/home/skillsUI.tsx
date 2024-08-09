@@ -12,15 +12,15 @@ const SkillsUI = () => {
         </p>
       </div>
       <div className="w-full grid justify-start mt-10">
-        <h1 className="text-gray-700 font-bold text-2xl">
-          Programming Languages
+        <h1 className="text-gray-700 mt-7 font-bold text-2xl">
+          Tech Stack
         </h1>
         <div className="mt-5 flex flex-row flex-wrap gap-3">
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
-            Typescript
+            Javascript
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
-            Javascript
+            Typescript
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             HTML
@@ -39,10 +39,10 @@ const SkillsUI = () => {
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             SQL
           </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            MongoDB
+          </span>
         </div>
-        <h1 className="text-gray-700 mt-7 font-bold text-2xl">
-          Tech Stack
-        </h1>
         <div className="mt-5 flex flex-row flex-wrap gap-3">
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Tailwind CSS
@@ -58,6 +58,9 @@ const SkillsUI = () => {
           </span>
         </div>
         <div className="mt-2 flex flex-row flex-wrap gap-3">
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Node Js
+          </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             React
           </span>
@@ -90,9 +93,6 @@ const SkillsUI = () => {
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Wordpress
           </span>
-          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
-            Node Js
-          </span>
         </div>
         <h1 className="text-gray-700 mt-7 font-bold text-2xl">
           Softwares dan Tools
@@ -100,6 +100,12 @@ const SkillsUI = () => {
         <div className="mt-5 flex flex-row flex-wrap gap-3">
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             VS Code
+          </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            TablePlus
+          </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Postman
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             Figma

@@ -60,7 +60,7 @@ const BannerUI = () => {
           >
             seorang{" "}
             <span className="text-gray-700 font-semibold ">
-              Front-end Developer
+              Fullstack Developer
             </span>{" "}
             yang menyukai design modern dan clean design.
           </motion.h1>
