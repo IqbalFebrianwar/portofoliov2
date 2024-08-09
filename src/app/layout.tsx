@@ -5,7 +5,7 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Iqbal Febrianwar - Front End dan Jasa Website Murah",
+  title: "Iqbal Febrianwar - Fullstack Developer",
   description: "Situs portofolio Iqbal Febrianwar yang menawarkan layanan jasa pembuatan website dengan harga terjangkau.",
 };
 

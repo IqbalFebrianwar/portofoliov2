@@ -85,6 +85,9 @@ const SkillsUI = () => {
         </div>
         <div className="mt-2 flex flex-row flex-wrap gap-3">
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
+            Flutter
+          </span>
+          <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">
             API
           </span>
           <span className="text-gray-700 font-semibold border-b-2 border-gray-300 bg-gray-100 items-center px-3 py-1 rounded-lg">

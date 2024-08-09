@@ -14,7 +14,7 @@ const FooterUI = () => {
           <h1 className="text-white text-md  mt-2">
             Seorang{" "}
             <span className="text-whitefont-semibold ">
-              Front-end Developer
+              Fullstack Developer
             </span>{" "}
             yang menyukai design modern dan clean design.
           </h1>
