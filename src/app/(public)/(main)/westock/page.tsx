@@ -48,8 +48,8 @@ export default function westock() {
                     <h1 className="text-gray-950 mt-5 mb-4 font-bold text-md">
                         Demo :
                     </h1>
-                    <Link href="https://jspstock.vercel.app/" className="text-blue-700 text-md mb-2">
-                        https://jspstock.vercel.app/
+                    <Link href="https://westock.vercel.app/" className="text-blue-700 text-md mb-2">
+                        https://westock.vercel.app/
                     </Link>
                 </div>
                 <div className="my-7">
