@@ -31,12 +31,6 @@ const FooterUI = () => {
           <a className="link link-hover">Website Personal</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Price List</h6>
-          <a className="link link-hover">Paket Silver</a>
-          <a className="link link-hover">Paket Gold</a>
-          <a className="link link-hover">Paket Diamond</a>
-        </nav>
-        <nav>
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <div className="py-2 px-2 gap-x-2 flex">

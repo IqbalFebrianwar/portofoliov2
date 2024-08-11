@@ -75,7 +75,7 @@ const BannerUI = () => {
         >
           <Link
             href="https://wa.me/6285780294072?text=Hai%20Mas%20Iqbal,%20Saya%20Ingin%20Bertanya%20Seputar%20Website"
-            className="btn font-bold active:text-blue-700 hover:text-blue-700 active:bg-white hover:bg-white  shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0"
+            className="btn font-bold active:text-blue-700 hover:text-blue-700 active:bg-white hover:bg-white shadow-none text-md bg-blue-700 text-gray-200 px-10 normal-case border-0"
           >
             hire me
           </Link>
