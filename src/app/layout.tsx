@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import ClientAudioProvider from "./(public)/(main)/buatkenna/components/ClientAudioProvider";
 import "./globals.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -16,7 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-white font-body">
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+        <ClientAudioProvider src="/music/music.mp3">
+          {children}
+        </ClientAudioProvider>
+      </body>
     </html>
   );
 }

@@ -17,6 +17,10 @@ const config = {
         "2xl": "1400px",
       },
     },
+    backgroundImage: {
+      romantic:
+        "radial-gradient(1200px circle at 10% 10%, rgba(255,193,204,.35), transparent 40%), radial-gradient(1000px circle at 90% 20%, rgba(255,170,170,.35), transparent 40%), linear-gradient(180deg, #fff5f7, #ffe9f0)",
+    },
     extend: {
       keyframes: {
         "accordion-down": {

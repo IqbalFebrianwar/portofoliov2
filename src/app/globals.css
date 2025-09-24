@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes floatUp {
+0% { transform: translateY(0) scale(1); opacity: .9; }
+100% { transform: translateY(-120vh) scale(1.2); opacity: 0; }
+}
+.heart { position: absolute; width: 18px; height: 18px; background: currentColor; transform: rotate(45deg); border-radius: 2px; }
+.heart::before, .heart::after { content: ""; position: absolute; width: 18px; height: 18px; background: currentColor; border-radius: 50%; }
+.heart::before { left: -9px; top: 0; }
+.heart::after { left: 0; top: -9px; }
